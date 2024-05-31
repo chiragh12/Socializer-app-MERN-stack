@@ -36,6 +36,10 @@ First, clone this repository to your local machine using Git:
 git clone https://github.com/chiragh12/Socializer-app-MERN-stack.git
 ```
 
+```bash
+cd Socializer-app-MERN-stack
+```
+
 Open the folder in VS code
 
 Change directory
