@@ -54,7 +54,6 @@ Create a folder config and in backend using the following command
 
 ```bash
 mkdir config
-cd config
 ```
 
 Create a .env file
@@ -76,7 +75,6 @@ CLOUDINARY_CLIENT_SECRET = Your CLOUDINARY_CLIENT_SECRET
 Change directory
 
 ```bash
-cd ..
 cd ..
 cd client
 ```
