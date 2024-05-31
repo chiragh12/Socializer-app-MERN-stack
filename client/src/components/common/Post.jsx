@@ -134,10 +134,10 @@ const Post = ({ post, isMyPost, handlePostDelete }) => {
             </div>
           )}
         </div>
-        <div className="flex flex-col gap-3 overflow-hidden">
+        <div className="flex flex-col gap-3 py-2 overflow-hidden">
           <span>{post.description}</span>
           {post.avatar && (
-            <div className="flex justify-center">
+            <div className="flex justify-center py-2">
               <img
                 src={post.avatar.url}
                 className="max-w-full max-h-[500px] object-contain rounded-lg border border-gray-700"
@@ -146,7 +146,7 @@ const Post = ({ post, isMyPost, handlePostDelete }) => {
             </div>
           )}
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 py-3">
           {isLiked ? (
             <FaHeart
               className="cursor-pointer text-red-500"
